@@ -36,8 +36,12 @@ You can safely run `rcup` multiple times to update:
 
     rcup
 
+
 Install [Vundle](https://github.com/gmarik/Vundle.vim)
 `git clone https://github.com/gmarik/Vundle.vim.git ~/.dotfiles/vim/bundle/Vundle.vim
+
+
+Install `Droid Sans` font in `fonts` dir and set it in iterm2
 
 ## Apps
 - [iterm2](http://iterm2.com/)
