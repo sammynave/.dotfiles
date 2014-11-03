@@ -7,6 +7,7 @@ Manage dotfiles with [RCM](http://robots.thoughtbot.com/rcm-for-rc-files-in-dotf
 - [iterm2](http://iterm2.com/)
 - [macvim](https://github.com/b4winckler/macvim)
 - [homebrew](http://brew.sh/)
+  - zsh
   - ctags
   - the_silver_searcher
   - tig
