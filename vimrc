@@ -158,5 +158,4 @@ let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
 " Always use vertical diffs
 set diffopt+=vertical
 
-set guifont=Ubuntu\ Mono\ derivative\ Powerline:h14
 let g:airline_powerline_fonts = 1
