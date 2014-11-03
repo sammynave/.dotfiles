@@ -10,4 +10,8 @@ Manage dotfiles with [RCM](http://robots.thoughtbot.com/rcm-for-rc-files-in-dotf
   - ctags
   - the_silver_searcher
   - tig
+
+## TODO
+  - use [Vundle](https://github.com/gmarik/Vundle.vim)
+  - fonts and colorschemes
   
