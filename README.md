@@ -36,6 +36,8 @@ You can safely run `rcup` multiple times to update:
 
     rcup
 
+Install [Vundle](https://github.com/gmarik/Vundle.vim)
+`git clone https://github.com/gmarik/Vundle.vim.git ~/.dotfiles/vim/bundle/Vundle.vim
 
 ## Apps
 - [iterm2](http://iterm2.com/)
@@ -51,8 +53,5 @@ You can safely run `rcup` multiple times to update:
   - [rcm](https://github.com/thoughtbot/rcm)
   - rbenv
 
-
 ## TODO
-  - use [Vundle](https://github.com/gmarik/Vundle.vim)
   - fonts and colorschemes
-  
