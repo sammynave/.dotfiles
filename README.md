@@ -6,7 +6,6 @@ Manage dotfiles with [RCM](http://robots.thoughtbot.com/rcm-for-rc-files-in-dotf
 - [spectacle](http://spectacleapp.com/)
 - [alfred](http://www.alfredapp.com/)
 - [macvim](https://github.com/b4winckler/macvim)
-- [vim-pathogen](https://github.com/tpope/vim-pathogen)
 - [homebrew](http://brew.sh/)
   - zsh
   - ctags
