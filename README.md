@@ -1,6 +1,7 @@
 Manage dotfiles with [RCM](http://robots.thoughtbot.com/rcm-for-rc-files-in-dotfiles-repos)
 
 ## Apps
+- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [spectacle](http://spectacleapp.com/)
 - [alfred](http://www.alfredapp.com/)
 - [iterm2](http://iterm2.com/)
