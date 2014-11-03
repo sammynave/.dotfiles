@@ -12,6 +12,7 @@ Manage dotfiles with [RCM](http://robots.thoughtbot.com/rcm-for-rc-files-in-dotf
   - the_silver_searcher
   - tig
   - [rcm](https://github.com/thoughtbot/rcm)
+  - rbenv
 
 ## TODO
   - use [Vundle](https://github.com/gmarik/Vundle.vim)
