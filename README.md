@@ -43,6 +43,19 @@ Install [Vundle](https://github.com/gmarik/Vundle.vim)
 
 Install `Droid Sans` font in `fonts` dir and set it in iterm2
 
+Vim plugin [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) requires
+additional compile step:
+```
+cd ~/.vim/bundle/YouCompleteMe
+./install.sh --clang-completer
+```
+
+Vim plugin [Tern for Vim](https://github.com/marijnh/tern_for_vim) requires
+`nodejs` and a global `node` executable. then run: 
+```
+cd ~/.dotfiles/vim/bundle/tern_for_vim && npm install
+```
+
 ## Apps
 - [iterm2](http://iterm2.com/)
 - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
@@ -56,6 +69,5 @@ Install `Droid Sans` font in `fonts` dir and set it in iterm2
   - tig
   - [rcm](https://github.com/thoughtbot/rcm)
   - rbenv
+  - node
 
-## TODO
-  - fonts and colorschemes
