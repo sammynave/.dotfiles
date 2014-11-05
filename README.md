@@ -53,7 +53,7 @@ cd ~/.vim/bundle/YouCompleteMe
 Vim plugin [Tern for Vim](https://github.com/marijnh/tern_for_vim) requires
 `nodejs` and a global `node` executable. then run: 
 ```
-cd ~/.dotfiles/vim/bundle/tern_for_vim && npm install
+cd ~/.vim/bundle/tern_for_vim && npm install
 ```
 
 ## Apps
