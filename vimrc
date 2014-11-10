@@ -113,6 +113,10 @@ endif
 " Color scheme
 set background=dark
 colorscheme solarized
+" Sign Column made by solarized color is strange, clear it.
+highlight clear SignColumn
+" vim-gitgutter will use Sign Column to set its color, reload it.
+call gitgutter#highlight#define_highlights()
 
 " Make it obvious where 80 characters is
 set textwidth=80
