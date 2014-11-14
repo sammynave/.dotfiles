@@ -1,3 +1,19 @@
-alias gs="git status"
-alias dcw="npm install && bower install && ember server --environment=development"
+# Zsh
+alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 
+# Vim
+alias vi="vim"
+
+# Git
+alias gs="git status"
+
+# Ruby
+alias b="bundle"
+alias be="b exec"
+alias ber="be rake"
+
+# MeYou Health
+alias cuc="be parallel_cucumber -o '--f progress'"
+alias cucdb="rake parallel:create && rake parallel:prepare parallel:migrate parallel:seed"
+alias dcw="npm install && ember server --environment=development"
+alias morning="ber update:env && ber fixtures:challenge"
