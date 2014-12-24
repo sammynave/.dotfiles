@@ -43,6 +43,8 @@ Install [Vundle](https://github.com/gmarik/Vundle.vim)
 
 Install `Droid Sans` font in `fonts` dir and set it in iterm2
 
+Install Macvim with `brew install macvim --override-system-vim`
+
 Vim plugin [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) requires
 additional compile step:
 ```
