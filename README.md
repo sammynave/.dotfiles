@@ -72,4 +72,5 @@ cd ~/.vim/bundle/tern_for_vim && npm install
   - [rcm](https://github.com/thoughtbot/rcm)
   - rbenv
   - node
-
+- [imageOptim](https://imageoptim.com/)
+- [imageAlpha](http://pngmini.com/)
