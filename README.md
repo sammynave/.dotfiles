@@ -48,14 +48,14 @@ Install Macvim with `brew install macvim --override-system-vim`
 Vim plugin [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) requires
 additional compile step:
 ```
-cd ~/.vim/bundle/YouCompleteMe
+cd ~/.dotfiles/vim/bundle/YouCompleteMe
 ./install.sh --clang-completer
 ```
 
 Vim plugin [Tern for Vim](https://github.com/marijnh/tern_for_vim) requires
 `nodejs` and a global `node` executable. then run: 
 ```
-cd ~/.vim/bundle/tern_for_vim && npm install
+cd ~/.dotfiles/vim/bundle/tern_for_vim && npm install
 ```
 
 ## Apps
