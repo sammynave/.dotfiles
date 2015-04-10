@@ -1,7 +1,6 @@
 .DS_Store
 *.sw[nop]
 .bundle
-.env
 db/*.sqlite3
 log/*.log
 rerun.txt
@@ -11,3 +10,4 @@ tmp/**/*
 !tmp/cache/.keep
 .netrwhist
 .dbbackup.sql
+.tern-project

@@ -39,3 +39,8 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 [[ -f ~/.aliases ]] && source ~/.aliases
 
 eval "$(rbenv init -)"
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
+[[ -s $HOME/.zshrc.local ]] && source "$HOME/.zshrc.local"
