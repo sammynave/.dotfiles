@@ -11,7 +11,8 @@ export PS1='${SSH_CONNECTION+"%{$fg_bold[green]%}%n@%m:"}%{$fg_bold[blue]%}%c%{$
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 plugins=(git rails ruby)
 source $ZSH/oh-my-zsh.sh
 
@@ -38,7 +39,8 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
 
-eval "$(rbenv init -)"
+source /usr/local/share/chruby/chruby.sh
+source /usr/local/share/chruby/auto.sh
 
 export VISUAL=vim
 export EDITOR="$VISUAL"

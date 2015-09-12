@@ -49,7 +49,7 @@ Vim plugin [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) requires
 additional compile step:
 ```
 cd ~/.dotfiles/vim/bundle/YouCompleteMe
-./install.sh --clang-completer
+./install.py --clang-completer
 ```
 
 Vim plugin [Tern for Vim](https://github.com/marijnh/tern_for_vim) requires
@@ -70,7 +70,7 @@ cd ~/.dotfiles/vim/bundle/tern_for_vim && npm install
   - the_silver_searcher
   - tig
   - [rcm](https://github.com/thoughtbot/rcm)
-  - rbenv
+  - chruby
   - node
 - [imageOptim](https://imageoptim.com/)
 - [imageAlpha](http://pngmini.com/)
