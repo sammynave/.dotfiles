@@ -74,3 +74,5 @@ cd ~/.dotfiles/vim/bundle/tern_for_vim && npm install
   - node
 - [imageOptim](https://imageoptim.com/)
 - [imageAlpha](http://pngmini.com/)
+- [Docker](https://www.docker.com/toolbox)
+  - start with Docker Quickstart Terminal
