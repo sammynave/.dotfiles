@@ -14,11 +14,13 @@ alias ber="be rake"
 
 # MeYou Health
 alias cuc="be spring cucumber --f progress"
+alias cucdb="bundle exec rake parallel:create && bundle exec rake db:setup db:migrate db:seed && bundle exec rake parallel:prepare parallel:migrate parallel:seed"
 alias cucp="be parallel_cucumber -o '--f progress'"
-alias cucdb="rake parallel:create && rake parallel:prepare parallel:migrate parallel:seed"
 alias dcw="npm install && ember server --environment=development"
 alias dcm="b && rails s -p 5000"
 alias morning="ber update:env && ber fixtures:challenge"
-alias dbdump="/usr/local/Cellar/mysql/5.6.22/bin/mysqldump -u root meyouhealth_development > .dbbackup.sql"
-alias dbload="/usr/local/Cellar/mysql/5.6.22/bin/mysql -u root meyouhealth_development < .dbbackup.sql"
+alias morningp="RAILS_ENV=development parallel_test -e 'rake update:env fixtures:challenge'"
+alias dbdump="/usr/local/Cellar/mysql/5.6.26/bin/mysqldump -u root meyouhealth_development > .dbbackup.sql"
+alias dbload="/usr/local/Cellar/mysql/5.6.26/bin/mysql -u root meyouhealth_development < .dbbackup.sql"
 alias s="be spring rspec"
+
