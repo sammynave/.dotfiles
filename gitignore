@@ -11,3 +11,4 @@ tmp/**/*
 .netrwhist
 .dbbackup.sql
 .tern-project
+.zsh_config

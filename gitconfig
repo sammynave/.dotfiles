@@ -33,3 +33,5 @@
   prune = true
 [include]
   path = ~/.gitconfig.local
+[rerere]
+	enabled = false

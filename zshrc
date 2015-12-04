@@ -46,3 +46,10 @@ export VISUAL=vim
 export EDITOR="$VISUAL"
 
 [[ -s $HOME/.zshrc.local ]] && source "$HOME/.zshrc.local"
+
+# added by travis gem
+[ -f /Users/sammy/.travis/travis.sh ] && source /Users/sammy/.travis/travis.sh
+export PATH="/usr/local/sbin:$PATH"
+
+# tmuxinator
+source ~/.dotfiles/tmuxinator.zsh
